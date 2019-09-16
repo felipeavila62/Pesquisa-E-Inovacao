@@ -1,6 +1,6 @@
 //types,reducers e actions
 
-export  const Types = {
+export const Types = {
     "GET_RECIPES" : "Recipes/GET_RECIPES",
     "GET_RECIPES_SUCESSO" : "Recipes/GET_RECIPES_SUCESSO",
     "GET_RECIPES_ERROR" : "Recipes/GET_RECIPES_ERROR"
@@ -40,7 +40,7 @@ export const Actions = {
             parametro,
         }
     }),
-    carregarReceitas: erro => ({
+    carregarReceitasErro: erro => ({
         type: Types.GET_RECIPES_ERROR,
         payload:{
             erro,

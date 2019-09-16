@@ -9,7 +9,7 @@ export function* getReceitas(action){
         const response = yield call(api.get,'/receitas');
         yield put(Actions.carregarDadosSucesso(response.data))
     }catch(err){
-        yield put(Actions.carregarDadosSucesso(response.data))
+        yield put(Actions.carregarDadosErro(response.data))
 
     }
 
