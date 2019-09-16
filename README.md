@@ -1,1 +1,1 @@
-# Pesquisa-E-Inovacao
+# pasta com projetos aleatórios para estudo
